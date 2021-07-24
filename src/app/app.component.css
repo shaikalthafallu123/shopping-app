@@ -1,0 +1,14 @@
+a.navbar-brand{
+    color: rgb(236, 76, 2);
+    font-style: bold;
+}
+.nav-link{
+    color: azure;
+}
+
+footer{
+    padding-top: 10px;
+}
+/* div{
+    background-color: rgb(137, 221, 241);
+} */

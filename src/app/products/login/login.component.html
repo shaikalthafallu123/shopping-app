@@ -1,0 +1,15 @@
+ <h2> Plz enter details</h2>
+<form [formGroup]="loginForm" (ngSubmit)="checkout(loginForm)">
+    <div class="form-group col-md-4" >
+      <label for="validationCustom01" >UserName</label>
+      <input type="email" class="form-control" name="EMAIL" formControlName="EMAIL"  id="EMAIL" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="validationCustom01">Password</label>
+      <input  type ="password" class="form-control"  name="PASSWORD" formControlName="PASSWORD" id="PASSWORD" required>
+    </div>
+     <button type="submit" class="btn btn-info" [disabled]="!loginForm.valid">Submit</button>
+</form>

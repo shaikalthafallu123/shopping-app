@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T-shirt",
+      "categoryId": 1,
+      " description ": "products",
+      "price": 199,
+      "productImg": "http://localhost:4200/assets/image/1.jpg",
+      "is available": true,
+      "reviews": 5,
+      "warrenty": 1,
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "name": "shoes",
+      "categoryId": 2,
+      " description ": "products",
+      "price": 299,
+      "productImg": "http://localhost:4200/assets/image/6.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "name": " TIN",
+      "categoryId": 3,
+      " description ": "products",
+      "price": 199,
+      "productImg": "http://localhost:4200/assets/image/7.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 4,
+      "name": " T-shirt",
+      "categoryId": 4,
+      " description ": "products",
+      "price": 499,
+      "productImg": "http://localhost:4200/assets/image/4.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "name": " Shoes",
+      "categoryId": 5,
+      " description ": "products",
+      "price": 299,
+      "productImg": "http://localhost:4200/assets/image/5.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "name": " T-shirts",
+      "categoryId": 6,
+      " description ": "products",
+      "price": 299,
+      "productImg": "http://localhost:4200/assets/image/3.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 7,
+      "name": " shoes",
+      "categoryId": 7,
+      " description ": "products",
+      "price": 299,
+      "productImg": "http://localhost:4200/assets/image/2.jpg",
+      "is available": true,
+      "reviews": 10,
+      "warrenty": 1,
+      "color": "red"
+    },
+    {
+      "id": 10,
+      "isAvailable": 1,
+      "productImg": "",
+      "name": "shirts"
+    },
+    {
+      "id": 11,
+      "isAvailable": 1,
+      "productImg": "http://localhost:4200/assets/image/2.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "polo T-shirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "shoes"
+    },
+    {
+      "id": 3,
+      "categoryName": "Tins"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "employe":[
+    {
+"EMAIL":"althaf22@gmail.com",
+"PASSWORD":"allu"
+  }
+] 
+}

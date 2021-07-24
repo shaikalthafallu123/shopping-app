@@ -1,0 +1,51 @@
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg  bg-dark">
+    <div class="container px-4 px-lg-5">
+        <h1 class="navbar-brand"> flipcart</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a class="nav-link active" aria-current="page"
+                    href="/products/view-product"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/products/create-product"> + ADD </a></li>
+                 <!-- <li class="nav-item"><a class="nav-link" href="/products/login">Login</a></li>  -->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+            
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item"  href="/products/list-product"><i class="fa fa-fw fa-home"></i>All Products</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="products/delete-product/:id">Delete-products</a></li>
+                        <li><a class="dropdown-item" href="products/update-product">update-products</a></li>
+                    
+                  
+                       
+                       <div class="sidenav">
+                       
+                
+                          <li> <a class="dropdown-item" href="products/category/{{Cat.id}}"  *ngFor="let Cat of Category">
+
+                              {{Cat.categoryName}}
+                            </a>
+                            
+                          </div> 
+                         
+                    </ul>
+                </li>
+            </ul>
+            
+            <form class="d-flex">
+                <button class="btn btn-info" type="submit">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                </button>
+
+            </form>
+            <li class="nav-item"><a class="nav-link" href="/products/login">Login</a></li> 
+          
+               <button type= "button" (click)= "logoutUser()" class="btn btn-primary">LogOut</button> 
+        </div>
+    </div>
+</nav>
