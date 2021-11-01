@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductsService } from 'src/app/products/products.service';
+// import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-header',
@@ -24,5 +25,33 @@ export class HeaderComponent implements OnInit {
     // it was used for navigated purpose in login component
     this.router.navigate(["/products/login"]);
   }
+  
+  // customOptions: OwlOptions = {
+  //   loop: true,
+  //   mouseDrag: true,
+  //   touchDrag: true,
+  //   pullDrag:true,
+  //   dots: true,
+  //   navSpeed: 700,
+  //   navText: ['', ''],
+  //   responsive:{
+  //     0:{
+  //         items:1
+  //     },
+  //     600:{
+  //         items:1
+  //     },
+  //     800:{
+  //         items: 1
+  //     },
+  //     1000:{
+  //         items:1
+  //     },
+  //   1200:{
+  //       items: 1
+  //   }
+  // },
+  //   nav: true
+  }
+  
 
-}

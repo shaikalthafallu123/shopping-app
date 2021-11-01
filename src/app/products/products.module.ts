@@ -12,6 +12,7 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { CreateProductComponent } from './create-product/create-product.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -32,7 +33,8 @@ import { LoginComponent } from './login/login.component';
     CommonModule,
     ProductsRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CarouselModule
   ]
 })
 export class ProductsModule { }

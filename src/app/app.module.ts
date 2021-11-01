@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { OrdersModule } from './orders/orders.module';
 import { SiteFrameModule } from './site-frame/site-frame.module';
 import { FormsModule } from '@angular/forms';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     OrdersModule,
     SiteFrameModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    CarouselModule
   ],
 
   providers: [],
